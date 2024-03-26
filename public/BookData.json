@@ -1,0 +1,119 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "https://i.ibb.co/0VqnXTG/kindpng-81724-1.png",
+    "review": "The Great Gatsby is a masterpiece of American literature. Set in the roaring twenties, it tells the story of Jay Gatsby, a mysterious millionaire, and his obsession with the beautiful Daisy Buchanan. Through vivid prose and rich symbolism, Fitzgerald explores themes of wealth, love, and the elusive American Dream, painting a haunting portrait of the Jazz Age that continues to captivate readers to this day.",
+    "totalPages": 180,
+    "rating": 4.5,
+    "category": "Fiction",
+    "tags": ["Classic", "Romance", "Tragedy"],
+    "publisher": "Charles Scribner's Sons",
+    "yearOfPublishing": 1925
+  },
+  {
+    "bookId": 2,
+    "bookName": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "https://i.ibb.co/rsV9YyZ/kindpng-1064993.png",
+    "review": "To Kill a Mockingbird is a powerful novel that addresses themes of racial injustice, morality, and compassion in the Deep South. Through the eyes of young Scout Finch, we witness her father, Atticus Finch, defending Tom Robinson, a black man falsely accused of raping a white woman. Harper Lee's poignant narrative and unforgettable characters challenge societal norms and inspire readers to confront prejudice and injustice.",
+    "totalPages": 281,
+    "rating": 4.8,
+    "category": "Fiction",
+    "tags": ["Social Justice", "Coming of Age"],
+    "publisher": "J. B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+  {
+    "bookId": 3,
+    "bookName": "1984",
+    "author": "George Orwell",
+    "image": "https://i.ibb.co/TwdGpLD/kindpng-2193744-1.png",
+    "review": "1984 is a dystopian novel that warns of the dangers of totalitarianism and the erosion of individual freedoms. Set in a bleak future where the government monitors and controls every aspect of citizens' lives, Orwell's chilling depiction of surveillance and thought control remains disturbingly relevant today. Through the protagonist Winston Smith's rebellion against the oppressive regime, Orwell challenges readers to question authority and defend the principles of freedom and truth.",
+    "totalPages": 328,
+    "rating": 4.7,
+    "category": "Science Fiction",
+    "tags": ["Dystopian", "Political"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "bookId": 4,
+    "bookName": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "image": "https://i.ibb.co/CMKFjgY/kindpng-2592315-1.png",
+    "review": "The Catcher in the Rye is a coming-of-age novel that captures the angst and alienation of adolescence. Narrated by the disillusioned teenager Holden Caulfield, it explores themes of identity, innocence, and the search for meaning in a world filled with phoniness. J.D. Salinger's raw and honest portrayal of teenage rebellion continues to resonate with readers of all ages, making this classic a timeless reflection on the struggles of growing up.",
+    "totalPages": 224,
+    "rating": 4.3,
+    "category": "Fiction",
+    "tags": ["Teenage", "Alienation"],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+  },
+  {
+    "bookId": 5,
+    "bookName": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "image": "https://i.ibb.co/BCgGyvD/kindpng-4022054-1.png",
+    "review": "Pride and Prejudice is a classic romance novel that satirizes societal norms and explores themes of love and marriage. Set in the English countryside, it follows the spirited Elizabeth Bennet as she navigates the pitfalls of Regency society and the advances of the enigmatic Mr. Darcy. Jane Austen's witty dialogue and keen observation of human nature make this novel a timeless masterpiece, cherished by readers for over two centuries.",
+    "totalPages": 279,
+    "rating": 4.6,
+    "category": "Fiction",
+    "tags": ["Romance", "Satire", "Regency"],
+    "publisher": "T. Egerton, Whitehall",
+    "yearOfPublishing": 1813
+  },
+  {
+    "bookId": 6,
+    "bookName": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "image": "https://i.ibb.co/BjBfZT8/kindpng-4945926-1.png",
+    "review": "Harry Potter and the Philosopher's Stone is the first book in the iconic fantasy series, introducing readers to the magical world of Hogwarts and the boy who lived. Follow young Harry Potter as he discovers his true identity as a wizard and embarks on a journey of friendship, courage, and adventure. J.K. Rowling's imaginative storytelling and richly detailed universe have captivated millions of readers worldwide, making this book a modern classic.",
+    "totalPages": 309,
+    "rating": 4.9,
+    "category": "Fantasy",
+    "tags": ["Magic", "Wizardry", "Adventure"],
+    "publisher": "Bloomsbury",
+    "yearOfPublishing": 1997
+  },
+  {
+    "bookId": 7,
+    "bookName": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "image": "https://i.ibb.co/NFkjgnW/kindpng-5624060-1.png",
+    "review": "The Picture of Dorian Gray is a gothic novel that explores the corrupting influence of vanity and hedonism. When Dorian Gray's portrait mysteriously ages while he remains youthful, he descends into a life of debauchery and moral decay. Oscar Wilde's provocative tale challenges Victorian morality and raises questions about the nature of beauty and the pursuit of pleasure.",
+    "totalPages": 251,
+    "rating": 4.7,
+    "category": "Fiction",
+    "tags": ["Gothic", "Morality", "Decadence"],
+    "publisher": "Ward, Lock & Co.",
+    "yearOfPublishing": 1890
+  },
+  {
+    "bookId": 8,
+    "bookName": "The Alchemist",
+    "author": "Paulo Coelho",
+    "image": "https://i.ibb.co/PCNQDyg/kindpng-7318921.png",
+    "review": "The Alchemist is a philosophical novel that follows the journey of Santiago, a young shepherd who sets out to discover his Personal Legend. Along the way, he encounters wise mentors, magical omens, and tests of faith as he learns the universal truths of life's journey. Paulo Coelho's enchanting narrative inspires readers to pursue their dreams and listen to the whispers of their hearts.",
+    "totalPages": 208,
+    "tags": ["Dystopian", "Survival", "Action"],
+    "rating": 4.5,
+    "category": "Chemistry"
+  },
+      {
+    "bookId": 9,
+    "bookName": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "image": "https://i.ibb.co/vkxcjGC/pngwing-1.png",
+    "review": "The Hunger Games is a thrilling dystopian novel set in a post-apocalyptic world where children are forced to participate in a televised fight to the death. Through the eyes of protagonist Katniss Everdeen, Suzanne Collins explores themes of survival, sacrifice, and the consequences of power. With its gripping plot and strong social commentary, this trilogy has captivated readers around the globe.",
+    "totalPages": 374,
+    "rating": 4.5,
+    "category": "Young Adult",
+    "tags": ["Dystopian", "Survival", "Action"],
+    "publisher": "Scholastic Press",
+    "yearOfPublishing": 2008
+  }
+]
+
+
