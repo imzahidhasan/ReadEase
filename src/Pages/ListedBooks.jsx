@@ -10,7 +10,6 @@ const ListedBooks = () => {
     console.log(readBook);
     useEffect(() => {
         const localReadList = getLocalReadList()
-       
         setReadBook(localReadList)
     }, [toggle])
     return (
@@ -19,7 +18,7 @@ const ListedBooks = () => {
                 <h1 className="text-center font-bold text-4xl">Book</h1>
             </div>
             <div>
-
+                <h1>listed book page</h1>
             </div>
             <div role="tablist" className="tabs tabs-lifted w-96">
                 <Link to={''} role="tab" onClick={() => setToggle(true)} className={toggle ? "tab tab-active" : "tab"}>Read Books</Link>
