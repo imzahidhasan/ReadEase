@@ -20,7 +20,6 @@ export const getDataFromLocalStorage = (book) => {
   const isReaded = localStorageData.find((item) => item.bookId === book.bookId);
   const LocalWishList = JSON.parse(localStorage.getItem("wishList")) || [];
   const isAlreadyExist = LocalWishList.find((item) => item.bookId === book.bookId)
-    console.log(isAlreadyExist);
     if (isReaded) {
         toast.error('you readed this book')
     } else if(isAlreadyExist){
@@ -33,3 +32,10 @@ export const getDataFromLocalStorage = (book) => {
     toast.error("You have Already added this book in wishlist");
   }
 };
+
+
+export const getLocalReadList = () => {
+  const localReadList = JSON.parse(localStorage.getItem('readList'))
+  return localReadList
+}
+// console.log(getLocalReadList());

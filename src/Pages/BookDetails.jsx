@@ -1,13 +1,13 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
-import {getDataFromLocalStorage, saveDataToLocalStorage} from '../Utilities/LocalStorage'
+import { getDataFromLocalStorage, saveDataToLocalStorage } from '../Utilities/LocalStorage'
 const BookDetails = () => {
     const { bookId } = useParams()
     const bookData = useLoaderData()
     const book = bookData.find((book) => book.bookId === +bookId)
     const { image, bookName, author, review, totalPages, rating, category, tags, publisher, yearOfPublishing } = book
     const handleReadList = () => {
-       saveDataToLocalStorage(book)
+        saveDataToLocalStorage(book)
     }
     const handleWishList = () => {
         getDataFromLocalStorage(book)

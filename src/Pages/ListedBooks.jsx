@@ -1,10 +1,18 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { getLocalReadList } from "../Utilities/LocalStorage";
+import ReadBookCard from "../component/ReadBookCard/ReadBookCard";
 
 
 const ListedBooks = () => {
     const [toggle, setToggle] = useState(false)
     const [readBook, setReadBook] = useState([])
+    console.log(readBook);
+    useEffect(() => {
+        const localReadList = getLocalReadList()
+       
+        setReadBook(localReadList)
+    }, [toggle])
     return (
         <div>
             <div className="bg-base-200 p-10 rounded-xl mt-5">
@@ -17,8 +25,10 @@ const ListedBooks = () => {
                 <Link to={''} role="tab" onClick={() => setToggle(true)} className={toggle ? "tab tab-active" : "tab"}>Read Books</Link>
                 <Link to={''} role="tab" onClick={() => setToggle(false)} className={!toggle ? "tab tab-active" : "tab"}>Wishlist Books</Link>
             </div>
-            <div>
-
+            <div className="space-y-4 container">
+                {
+                    readBook.map((item,index) => <ReadBookCard key={index} book={item} />)
+                }
             </div>
         </div>
     );
