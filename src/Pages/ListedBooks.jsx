@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 const ListedBooks = () => {
     const [toggle, setToggle] = useState(false)
     const [readBook, setReadBook] = useState([])
-    console.log(toggle);
     return (
         <div>
             <div className="bg-base-200 p-10 rounded-xl mt-5">

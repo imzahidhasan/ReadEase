@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
-import {saveDataToLocalStorage} from '../Utilities/LocalStorage'
+import {getDataFromLocalStorage, saveDataToLocalStorage} from '../Utilities/LocalStorage'
 const BookDetails = () => {
     const { bookId } = useParams()
     const bookData = useLoaderData()
@@ -8,6 +8,9 @@ const BookDetails = () => {
     const { image, bookName, author, review, totalPages, rating, category, tags, publisher, yearOfPublishing } = book
     const handleReadList = () => {
        saveDataToLocalStorage(book)
+    }
+    const handleWishList = () => {
+        getDataFromLocalStorage(book)
     }
     return (
         <div className='flex '>
@@ -60,7 +63,7 @@ const BookDetails = () => {
                     </div>
                     <div className='space-x-3'>
                         <button onClick={handleReadList} className='btn bg-white border-[#131313] text-[#131313]'>Read</button>
-                        <button className='btn bg-[#50B1C9] text-white'>Wishlist</button>
+                        <button onClick={() => handleWishList()} className='btn bg-[#50B1C9] text-white'>Wishlist</button>
                     </div>
                 </div>
             </div>
