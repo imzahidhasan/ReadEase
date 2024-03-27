@@ -13,7 +13,7 @@ export const saveDataToLocalStorage = (book) => {
     localStorage.setItem("readList", JSON.stringify(savedData));
     toast.success("This book added as read!");
   } else {
-    toast.error("You have already readed this book");
+    toast.error("You have already read this book");
   }
 };
 
@@ -25,7 +25,7 @@ export const getDataFromLocalStorage = (book) => {
     (item) => item.bookId === book.bookId
   );
   if (isReaded) {
-    toast.error("you readed this book");
+    toast.error("you read this book");
   } else if (isAlreadyExist) {
     toast.error("Already have in wishlist");
   } else if (!isReaded && !isAlreadyExist) {

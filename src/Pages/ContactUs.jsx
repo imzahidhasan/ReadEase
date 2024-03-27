@@ -2,13 +2,13 @@ import React from 'react';
 
 const AboutUs = () => {
     return (
-        <div className='flex gap-5 min-h-[calc(100vh-150px)]'>
-            <div className='w-1/2 flex flex-col justify-center items-center space-y-2' >
+        <div className='flex lg:flex-row flex-col gap-5 min-h-[calc(100vh-150px)]'>
+            <div className='lg:w-1/2 flex flex-col justify-center items-center space-y-2' >
                 <h1 className='text-6xl font-bold text-green-500'>Contact Us</h1>
-                <p className='font-medium text-lg'>If you have any inquire,please feel free to reach us</p>
+                <p className='font-medium text-center text-lg'>If you have any inquire,please feel free to reach us</p>
                 <p className='font-medium text-lg'> We will reach you soon</p>
             </div>
-            <div className='w-1/2 flex flex-col justify-center space-y-2'>
+            <div className='lg:w-1/2 flex flex-col justify-center space-y-2'>
                 <label className="input input-bordered flex items-center gap-2">
                     First Name
                     <input type="text" className="grow" placeholder="Your First name" />

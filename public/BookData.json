@@ -99,7 +99,8 @@
     "totalPages": 208,
     "tags": ["Dystopian", "Survival", "Action"],
     "rating": 4.5,
-    "category": "Chemistry"
+    "category": "Chemistry",
+    "yearOfPublishing": 1999
   },
       {
     "bookId": 9,

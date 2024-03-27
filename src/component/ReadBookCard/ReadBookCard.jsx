@@ -36,7 +36,7 @@ const ReadBookCard = ({ book }) => {
                     <div className="space-x-4">
                         <button className="btn bg-[#328EFF26] rounded-full text-[#328EFF]">Category: {category}</button >
                         <button className="btn text-[#FFAC33] rounded-full bg-[#FFAC3326]">Rating: {rating}</button >
-                        <Link to={`book-details/${book.bookId}`}>
+                        <Link to={`/book-details/${book.bookId}`}>
                             <button className="btn bg-[#23BE0A] rounded-full text-white">View Details</button>
                         </Link>
                     </div>

@@ -13,11 +13,11 @@ const BookDetails = () => {
         getDataFromLocalStorage(book)
     }
     return (
-        <div className='flex '>
-            <div className='w-1/2 text-center p-5 flex justify-center'>
+        <div className='flex flex-col lg:flex-row '>
+            <div className='lg:w-1/2 text-center p-5 flex justify-center'>
                 <img className='w-full rounded-xl p-5 bg-base-200' src={image} alt="book img" />
             </div>
-            <div className='w-1/2 p-5'>
+            <div className='lg:w-1/2 p-5'>
                 <div className='space-y-2 p-2'>
                     <h1 className='text-3xl font-bold '>{bookName}</h1>
                     <p className='font-medium text-lg'>By: {author}</p>

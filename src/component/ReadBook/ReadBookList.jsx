@@ -1,9 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { getLocalReadList } from '../../Utilities/LocalStorage';
 import ReadBookCard from '../ReadBookCard/ReadBookCard';
+import { useOutletContext } from 'react-router-dom';
 
 const ReadBookList = () => {
+    const [sortedData]=useOutletContext()
     const [readBook, setReadBook] = useState([])
+    console.log(sortedData);
+
+    useEffect(() => {
+        setReadBook(sortedData)
+    },[sortedData])
     useEffect(() => {
         const localReadList = getLocalReadList()
         setReadBook(localReadList)

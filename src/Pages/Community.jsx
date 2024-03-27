@@ -9,7 +9,7 @@ const Community = () => {
                 <p className='text-lg font-medium'>If you have interest in book reading you can check out our community</p>
                 <p className='text-lg font-medium'>You could be a part of our community if you want</p>
             </div>
-            <div className="flex mt-5 flex-col gap-3 justify-center items-center">
+            <div className="flex mt-10 flex-col gap-3 justify-center items-center">
                 <div className="flex gap-3 justify-center items-center ">
                     <BsFacebook className="text-4xl hover:scale-105 transition duration-500 text-blue-500" />
                     <p className="text-xl">Facebook Group</p>
