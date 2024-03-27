@@ -7,7 +7,7 @@ import Home from './Pages/Home.jsx'
 import ListedBooks from './Pages/ListedBooks.jsx'
 import PagesToRead from './Pages/PagesToRead.jsx'
 import ErrorPage from './Pages/ErrorPage.jsx'
-import AboutUs from './Pages/AboutUs.jsx'
+import AboutUs from './Pages/ContactUs.jsx'
 import Community from './Pages/Community.jsx'
 import BookDetails from './Pages/BookDetails.jsx'
 import { Toaster } from 'react-hot-toast'
@@ -45,7 +45,7 @@ const router = createBrowserRouter([
         element: <PagesToRead />
       },
       {
-        path: 'about-us',
+        path: 'contact-us',
         element: <AboutUs />
       },
       {

@@ -23,7 +23,7 @@ const NavBar = () => {
                     <li><NavLink to={'/'} className={({ isActive }) => isActive ? 'text-[#23BE0A] border-2 border-[#23BE0A]' : ''}>Home</NavLink></li>
                     <li><NavLink to={'/listed-books'} className={({ isActive }) => isActive ? 'text-[#23BE0A] border-2 border-[#23BE0A]' : ''}>Listed Books</NavLink></li>
                     <li><NavLink to={'/page-to-read'} className={({ isActive }) => isActive ? 'text-[#23BE0A] border-2 border-[#23BE0A]' : ''}>Pages to Read</NavLink></li>
-                    <li><NavLink to={'/about-us'} className={({ isActive }) => isActive ? 'text-[#23BE0A] border-2 border-[#23BE0A]' : ''}>About us</NavLink></li>
+                    <li><NavLink to={'/contact-us'} className={({ isActive }) => isActive ? 'text-[#23BE0A] border-2 border-[#23BE0A]' : ''}>Contact us</NavLink></li>
                     <li><NavLink to={'/community'} className={({ isActive }) => isActive ? 'text-[#23BE0A] border-2 border-[#23BE0A]' : ''}>Community</NavLink></li>
                 </ul>
             </div>
