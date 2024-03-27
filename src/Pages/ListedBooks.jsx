@@ -34,7 +34,7 @@ const ListedBooks = () => {
     return (
         <div>
             <div className="bg-base-200 p-10 rounded-xl mt-5">
-                <h1 className="text-center font-bold text-4xl">Book</h1>
+                <h1 className="text-center font-bold text-4xl">Books</h1>
             </div>
             <div className="flex justify-center items-center p-5">
                 <div className="dropdown">

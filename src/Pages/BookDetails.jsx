@@ -14,8 +14,8 @@ const BookDetails = () => {
     }
     return (
         <div className='flex flex-col lg:flex-row '>
-            <div className='lg:w-1/2 text-center p-5 flex justify-center'>
-                <img className='w-full rounded-xl p-5 bg-base-200' src={image} alt="book img" />
+            <div className='lg:w-1/2 text-center rounded-xl bg-base-200 p-5 flex justify-center'>
+                <img className='w-[70%]  p-5 ' src={image} alt="book img" />
             </div>
             <div className='lg:w-1/2 p-5'>
                 <div className='space-y-2 p-2'>
